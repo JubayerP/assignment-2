@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    width: 90%;
+    background-color: rgba(22, 22, 22, 1);
+    height: 95vh;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.part-1{
+    margin-left: 100px;
+    width: 50%;
+}
+.part-1 h1{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+.part-1 p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.part-1 button{
+    display: flex;
+    align-items: center;
+    background-color: #DD0000;
+    border: 0;
+    outline: none;
+    padding: 16px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.part-1 button:hover i{
+    transform: translate(.25rem);
+}
+.part-1 button i{
+    transition: .2s;
+}
+.part-1 button span{
+    margin-right: 10px;
+}
+.part-2{
+    width: 50%;
+}
+.part-2 img{
+    width: 90%;
+    margin-bottom: -65px;
+}
+
+/* For Mobile Devices */
+@media screen and (max-width: 576px) {
+    
+}
+
+/* For Tablet Devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #header{
+        width: 90%;
+    }
+    .part-1 h1{
+        font-size: 40px;
+    }
+    .part-1 p{
+        font-size: 14px;
+    }
+}
