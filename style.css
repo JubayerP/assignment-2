@@ -72,7 +72,7 @@ body{
     border: 1px solid rgba(22, 22, 22, 1);
     background-color: rgba(22, 22, 22, 1);
     display: inline-block;
-    width: 312px;
+    width: 23%;
     height: 312px;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,23 @@ body{
         margin-bottom: -30px;
         width: 100%;
     }
+
+    #blogs-container{
+        flex-direction: column;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+    .menu{
+        border: 0;
+        background-color: #fff;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .menu a{
+        border: 1px solid #E8E8E8;
+    }
 }
 
 /* For Tablet Devices */
@@ -235,6 +252,7 @@ body{
     }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 50px;
     }
     .blog{
         width: 100%;
