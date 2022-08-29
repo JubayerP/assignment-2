@@ -65,13 +65,49 @@ body{
 
 /* For Mobile Devices */
 @media screen and (max-width: 576px) {
-    
+    #header{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    .part-1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .part-1 h1{
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 8px;
+        text-align: center;
+        margin-top: 28px;
+    }
+    .part-1 p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 258px;
+        height: 48px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .part-1 button{
+        margin: 0 auto;
+    }
+    .part-2{
+        margin: 0 auto;
+    }
+    .part-2 img{
+        margin-bottom: -30px;
+        width: 100%;
+    }
 }
 
 /* For Tablet Devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     #header{
         width: 90%;
+        height: 100vh;
     }
     .part-1 h1{
         font-size: 40px;
