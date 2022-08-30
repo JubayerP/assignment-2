@@ -11,7 +11,8 @@ body{
 
 #header{
     width: 80%;
-    background-color: rgba(22, 22, 22, 1);
+    background-color: #14213d;
+    /* background-color: rgba(22, 22, 22, 1); */
     height: 95vh;
     margin: 30px auto 130px auto;
     display: flex;
@@ -37,7 +38,8 @@ body{
 .part-1 button{
     display: flex;
     align-items: center;
-    background-color: #DD0000;
+    background-color: #283618;
+    /* background-color: #DD0000; */
     border: 0;
     outline: none;
     padding: 16px 25px;
@@ -75,7 +77,8 @@ body{
 }
 .menu{
     border: 1px solid rgba(22, 22, 22, 1);
-    background-color: rgba(22, 22, 22, 1);
+    background-color: #14213d;
+    /* background-color: rgba(22, 22, 22, 1); */
     display: inline-block;
     width: 23%;
     height: 312px;
@@ -105,7 +108,7 @@ body{
 }
 .blog-btn{
     margin: 0 auto;
-    background-color: #dd0000;
+    background-color: #283618;
     color: white;
 }
 
