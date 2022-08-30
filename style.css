@@ -254,6 +254,23 @@ footer .line{
     .menu a{
         border: 1px solid #E8E8E8;
     }
+
+    footer{
+        height: 480px;
+    }
+    .footer-content h1{
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+    .footer-links{
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .footer-links a{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
 
 /* For Tablet Devices */
